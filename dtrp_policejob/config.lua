@@ -19,7 +19,7 @@ Config.EnableCustomPeds           = false -- Enable custom peds in cloak room? S
 Config.EnableESXService           = false -- Enable esx service?
 Config.MaxInService               = -1 -- How much people can be in service at once?
 
-Config.Locale                     = 'en'
+Config.Locale                     = 'de'
 
 Config.PoliceStations = {
 
@@ -83,54 +83,53 @@ Config.PoliceStations = {
 
 Config.AuthorizedWeapons = {
 	recruit = {
-		{weapon = 'weapon_snspistol', price = 0},
+	{weapon = 'weapon_snspistol', price = 0},
         {weapon = 'WEAPON_CARBINERIFLE', price = 0},
         {weapon = 'WEAPON_SMG', price = 0},
         {weapon = 'WEAPON_FLARE', price = 0},
-		{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
-		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 0}
+	{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
+	{weapon = 'WEAPON_NIGHTSTICK', price = 0},
+	{weapon = 'WEAPON_STUNGUN', price = 0}
 	},
 
 	officer = {
-		{weapon = 'weapon_snspistol', price = 0},
+	{weapon = 'weapon_snspistol', price = 0},
         {weapon = 'WEAPON_CARBINERIFLE', price = 0},
         {weapon = 'WEAPON_SMG', price = 0},
         {weapon = 'WEAPON_FLARE', price = 0},
-		{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
-		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 0}
+	{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
+	{weapon = 'WEAPON_NIGHTSTICK', price = 0},
+	{weapon = 'WEAPON_STUNGUN', price = 0}
 	},
 
 	sergeant = {
-		{weapon = 'weapon_snspistol', price = 0},
+	{weapon = 'weapon_snspistol', price = 0},
         {weapon = 'WEAPON_CARBINERIFLE', price = 0},
         {weapon = 'WEAPON_SMG', price = 0},
         {weapon = 'WEAPON_FLARE', price = 0},
-		{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
-		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 0}
+	{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
+	{weapon = 'WEAPON_NIGHTSTICK', price = 0},
+	{weapon = 'WEAPON_STUNGUN', price = 0}
 	},
 
 	lieutenant = {
-		{weapon = 'weapon_snspistol', price = 0},
+	{weapon = 'weapon_snspistol', price = 0},
         {weapon = 'WEAPON_CARBINERIFLE', price = 0},
         {weapon = 'WEAPON_SMG', price = 0},
         {weapon = 'WEAPON_FLARE', price = 0},
-		{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
-		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 0}
+	{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
+	{weapon = 'WEAPON_NIGHTSTICK', price = 0},
+	{weapon = 'WEAPON_STUNGUN', price = 0}
 	},
 
 	boss = {
-		{weapon = 'weapon_snspistol', price = 0},
+	{weapon = 'weapon_snspistol', price = 0},
         {weapon = 'WEAPON_CARBINERIFLE', price = 0},
         {weapon = 'WEAPON_SMG', price = 0},
         {weapon = 'WEAPON_FLARE', price = 0},
-		{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
-		{weapon = 'WEAPON_NIGHTSTICK', price = 0},
-		{weapon = 'WEAPON_STUNGUN', price = 0}
-	}
+	{weapon = 'WEAPON_PUMPSHOTGUN', components = {0, 0, nil}, price = 0},
+	{weapon = 'WEAPON_NIGHTSTICK', price = 0},
+	{weapon = 'WEAPON_STUNGUN', price = 0}
 	}
 }
 
@@ -139,20 +138,21 @@ Config.AuthorizedVehicles = {
 		recruit = {},
 
 		officer = {
-			{model = 'police3', price = 20000}
+			{model = 'police3', price = 1}
 		},
 
 		sergeant = {
-			{model = 'policet', price = 18500},
-			{model = 'policeb', price = 30500}
+			{model = 'policet', price = 1},
+			{model = 'policeb', price = 1}
 		},
 
 		lieutenant = {
-			{model = 'riot', price = 70000},
-			{model = 'fbi2', price = 60000}
+			{model = 'fbi2', price = 1}
 		},
 
-		boss = {}
+		boss = {
+                    {model = 'fbi2', price = 1}
+}
 	},
 
 	helicopter = {
