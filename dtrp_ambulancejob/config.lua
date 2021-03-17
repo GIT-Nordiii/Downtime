@@ -129,12 +129,39 @@ Config.Hospitals = {
 
 Config.AuthorizedVehicles = {
 
-	prak = {
+	prak = {},
+	
+	assistant = {
+		{ model = 'ambulance', label = 'Krankenwagen', price = 1}
+	},
+	
+        arzt = {
+		{ model = 'ambulance', label = 'Krankenwagen', price = 1}
+	},
+	
+	oberarzt = {
+		{ model = 'ambulance', label = 'Krankenwagen', price = 1},
+                { model = 'dodgeEMS', label = 'Notarzteinsatzfahrzeug', price = 1}
+	},
+	
+        chefarzt = {
+		{ model = 'ambulance', label = 'Krankenwagen', price = 1},
+                { model = 'dodgeEMS', label = 'Notarzteinsatzfahrzeug', price = 1}
+	},
+	
+	verwaltung = {
+		{ model = 'ambulance', label = 'Krankenwagen', price = 1},
+                { model = 'dodgeEMS', label = 'Notarzteinsatzfahrzeug', price = 1}
+	},
+	
+	assistant_chief = {
+		{ model = 'ambulance', label = 'Krankenwagen', price = 1},
+                { model = 'dodgeEMS', label = 'Notarzteinsatzfahrzeug', price = 1}
 	},
 
 	boss = {
 		{ model = 'ambulance', label = 'Krankenwagen', price = 1},
-                { model = 'dodgeEMS', label = 'NEF', price = 1}
+                { model = 'dodgeEMS', label = 'Notarzteinsatzfahrzeug', price = 1}
 	}
 
 }
@@ -142,18 +169,10 @@ Config.AuthorizedHelicopters = {
 
 	ambulance = {},
 
-	doctor = {
-		{ model = 'buzzard2', label = 'Nagasaki Buzzard', price = 0}
-	},
+	doctor = {},
 
-	chief_doctor = {
-		{ model = 'buzzard2', label = 'Nagasaki Buzzard', price = 0},
-		{ model = 'seasparrow', label = 'Sea Sparrow', price = 0}
-	},
+	chief_doctor = {},
 
-	boss = {
-		{ model = 'buzzard2', label = 'Nagasaki Buzzard', price = 0},
-		{ model = 'seasparrow', label = 'Sea Sparrow', price = 0}
-	}
+	boss = {}
 
 }
