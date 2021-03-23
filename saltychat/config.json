@@ -1,0 +1,21 @@
+{
+  // Variables Guide: https://github.com/saltminede/saltychat-docs/blob/master/setup.md#config-variables
+  "VoiceEnabled": true,
+  "ServerUniqueIdentifier": "gZXecftBF+vahaX2E+63+C5BxrM=",
+  "MinimumPluginVersion": "2.2.0",
+  "SoundPack": "default",
+  "IngameChannelId": 134835,
+  "IngameChannelPassword": "downtimeRP",
+  "SwissChannelIds": [ 134845 ],
+  "VoiceRanges": [ 3.5, 8, 15, 32 ],
+  "MegaphoneRange": 120.0,
+  "NamePattern": "[{serverid}] {guid}",
+  "RequestTalkStates": true,
+  "RequestRadioTrafficStates": false,
+
+  // Keybinds: https://docs.fivem.net/docs/game-references/controls/#controls
+  "ToggleRange": 243, // EnterCheatCode
+  "TalkPrimary": 249, // PushToTalk
+  "TalkSecondary": 137, // VehiclePushbikeSprint
+  "TalkMegaphone": 29 // SpecialAbilitySecondary
+}
